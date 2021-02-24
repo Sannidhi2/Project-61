@@ -1,0 +1,99 @@
+body{
+    text-align:center;
+    background-color: cornsilk;
+    background: linear-gradient(#fab4f5 0%,#341282 100%);
+}
+#myphoto{
+    width:200px;
+    height:150px;
+    border-radius:50%
+}
+.line{
+    line-height: 2.1;
+    max-width:450px;
+    height:6px;
+    background-color:black;
+    margin:8px auto;
+}
+p{
+    font-family:cursive;
+    font-size: 20px;
+}
+#C{
+    font-family:monospace;
+    font-size: 27px;
+}
+.menu{
+    font-family:fantasy;
+    position:fixed;
+    width:100%;
+    z-index: 10;
+    cursor: pointer;
+    margin-top:0px;
+    top:0px;
+    background:white;
+}
+.links:hover{
+    background-color:aquamarine;
+    text-decoration: underline;
+    font-size:25px;
+}
+.links{
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: inherit;
+    font-size: 20px;
+    color: aliceblue;
+    display:inline;
+}
+#name{
+    font-size:30px;
+    font-family:'Pacifico', cursive;
+}
+.article{
+    color:black;
+    font-size:25px;
+}
+html{
+    scroll-behavior:smooth;
+}
+.article:hover{
+    color:darkgreen;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+    font-family: cursive;
+    text-shadow:2px 2px gainsboro;
+}
+img{
+    border:8px;
+    border-style: solid;
+    border-color:black;
+    padding:5px;
+    transition:transform .2s;
+}
+img:hover{
+    transform:scale(0.9);
+}
+#C{
+    font-family:monospace;
+}
+#Contacts{
+    background-color:beige;
+}
+#Contacts iframe{
+    width:100%;
+}
+.contact-1 h3{
+    display:inline;
+}
+.contact-1 a{
+    color:black;
+    text-shadow:none;
+}
+#Review a{
+     text-shadow:none !important;
+    text-decoration: underline !important;
+    color:beige;
+}
